@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+.title-box {
+    border: 2px solid #43533D;
+    background-color: #43533D;
+    padding: auto;
+    height: 15vh; 
+    width: 80vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 3% auto 0%; 
+    border-radius: 18px;
+    box-shadow: #ccc;
+    text-align: center;
+}
+
+.title {
+    font-family: "Agbalumo", sans-serif;
+    font-size: 60px;
+    margin: 0 0 0 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.title-box i {
+    font-size: 50px;
+    margin:  0 0 0 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+p {
+    font-family: "Agbalumo", sans-serif;
+    font-size: 30px;
+    color: #ccc;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+body {
+    font-family: "Playpen Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: -2% 0 0;
+    background-image: url('images/fundo-maps.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+label {
+    background-color: #43533D;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    color: #fff;
+    display: block;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    font-size: 18px;
+    box-shadow: #ccc;
+}
+
+button {
+    width: 150px;
+    padding: auto;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-family: "Agbalumo";
+    font-size: 20px;
+    box-shadow: #ccc;
+    margin: 0 5px;
+}
+
+.container-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+footer {
+    font-family: "Playpen Sans", sans-serif;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#linkedin, #github {
+    cursor: pointer;
+    justify-content: space-around;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Playpen+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_package_v0.16/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_package_v0.16/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_package_v0.16/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon_package_v0.16/site.webmanifest">
+    <link rel="mask-icon" href="images/favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Consultar Endereço</title>
+</head>
+    <div class="title-box">
+    <h1 class="title">Descubra o endereço</h1> 
+    <i class="fas fa-map-marker-alt"></i>
+    </div>
+<body>
+    <div class="container">
+        <form id="formulario" method="get" action=".">
+            <p>Informe seu CEP!</p>
+            <label>
+            CEP:
+            <input id="cep" name="cep" type="text" value="" size="10" maxlength="9" onclick="pesquisacep(this.value)">
+            </label>
+            <label>
+            Rua:
+            <input id="rua" name="rua" type="text" size="60">
+            </label>
+            <label>
+            Bairro:
+            <input id="bairro" name="bairro" type="text" size="40">
+            </label>
+            <label>
+            Cidade:
+            <input id="cidade" name="cidade" type="text" size="40">
+            </label>
+            <label>
+            Estado:
+            <input id="uf" name="estado" type="text" size="2">
+            </label>
+            <label>
+            IBGE:
+            <input id="ibge" name="ibge" type="text" size="8">
+            </label>
+        </form>
+    </div>
+    <div class="container-button">
+        <button onclick="pesquisacep(document.getElementById('cep').value)">Pesquisar</button>
+        <button onclick="limpa_formulario_cep(document.getElementById('cep').value)">Limpar</button>
+    </div>
+    <br>
+        <footer>Siga-me: 
+        <i id="linkedin" class="fab fa-linkedin" onclick="redirectToUrl('https://www.linkedin.com/in/yasmin-fadel/')"></i>
+        <i id="github" class="fab fa-github" onclick="redirectToUrl('https://github.com/YasminFadel15')"></i>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
