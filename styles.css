@@ -123,3 +123,127 @@ footer {
     cursor: pointer;
     justify-content: space-around;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    .title-box {
+        width: 80%;
+        height: 8vh;
+        margin: 5% auto -2%; 
+        padding: auto;
+    }
+
+    .title {
+        font-size: 30px;
+        margin: 0 0 0 10px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+    }
+
+    .title-box i {
+        font-size: 30px;
+        margin:  0 0 0 5px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    body {
+        margin: -5% 0 0;
+        height: 100vh;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    .title-box {
+        width: 70%;
+        height: 10vh;
+        margin: 4% auto -1%;
+        padding: auto;
+    }
+
+    .title {
+        font-size: 35px;
+        margin: 0 0 0 10px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+    }
+
+    .title-box i {
+        font-size: 40px;
+        margin: 0 0 0 10px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+    }
+
+    p {
+        font-size: 24px;
+    }
+
+    body {
+        margin: -4% 0 0;
+        height: 100vh;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1080px) {
+    .title-box {
+        width: 75%;
+        height: 8vh;
+        margin: 3% auto -1%;
+        padding: auto;
+    }
+
+    .title {
+        font-size: 37px;
+        margin: 0 0 0 15px;
+    }
+
+    .title-box i {
+        font-size: 45px;
+        margin: 0 0 0 10px;
+    }
+
+    p {
+        font-size: 26px;
+    }
+
+    body {
+        margin: -3% 0 0;
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+    .title-box {
+        width: 80%;
+        height: 12vh;
+        margin: 3% auto -1%;
+        padding: auto;
+    }
+
+    .title {
+        font-size: 40px;
+        margin: 0 0 0 20px;
+    }
+    
+    .title-box i {
+        font-size: 50px;
+        margin:  0 0 0 10px;
+    }
+
+    p {
+        font-size: 30px;
+    }
+
+    body {
+        margin: -4% 0 0;
+    }
+}
