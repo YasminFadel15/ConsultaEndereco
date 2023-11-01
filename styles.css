@@ -125,37 +125,3 @@ footer {
 }
 
 
-
-@media only screen and (max-width: 600px) {
-    .title-box {
-        width: 80%;
-        height: 8vh;
-        margin: 5% auto -2%; 
-        padding: auto;
-    }
-
-    .title {
-        font-size: 30px;
-        margin: 0 0 0 10px;
-        color: #fff;
-        display: flex;
-        align-items: center;
-    }
-
-    .title-box i {
-        font-size: 30px;
-        margin:  0 0 0 5px;
-        color: #fff;
-        display: flex;
-        align-items: center;
-    }
-
-    p {
-        font-size: 18px;
-    }
-
-    body {
-        margin: -5% 0 0;
-        height: 100vh;
-    }
-}
